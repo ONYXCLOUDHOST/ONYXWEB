@@ -1,4 +1,4 @@
-Name:          ONYXWEB
+Name:          onyxweb
 Summary:    	  Install nDeploy on centos7 server
 Version:    	  4.0.3
 Release:    	  1%{?dist}
