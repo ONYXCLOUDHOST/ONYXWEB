@@ -2,26 +2,26 @@ Name:           onyxweb
 Summary:    	  Install nDeploy on centos7 server
 Version:    	  1.0
 Release:    	  1%{?dist}
-Group:          Development/Libraries
-License:        GPL+
+Group:         Development/Libraries
+License:       GPL+
 Source0:    	  %{name}-%{version}.tar.gz
 BuildRoot:	    %{_tmppath}/%{name}-%{version}-%{release}-root
-BuildRequires:  git
-BuildRequires:  perl >= 1:v5.10.1
-BuildRequires:  perl(Module::Build) >= 0.35
-BuildRequires:  perl(Test::Pod) >= 1.20
-Requires:       git
-Requires:       git-archive-all
-Requires:       rpm-build
-Requires:       perl(Getopt::Long)
-Requires:       perl(List::Util)
-Requires:       perl(IPC::System::Simple) >= 1.17
-Requires:       perl(File::Temp)
-Requires:       perl(Path::Class)
-Requires:       perl(File::Path)
-Requires:       perl(File::Copy)
-Requires:       perl(File::Basename)
-Requires:       perl(Pod::Usage)
+BuildRequires: git
+BuildRequires: perl >= 1:v5.10.1
+BuildRequires: perl(Module::Build) >= 0.35
+BuildRequires: perl(Test::Pod) >= 1.20
+Requires:      git
+Requires:      git-archive-all
+Requires:      rpm-build
+Requires:      perl(Getopt::Long)
+Requires:      perl(List::Util)
+Requires:      perl(IPC::System::Simple) >= 1.17
+Requires:      perl(File::Temp)
+Requires:      perl(Path::Class)
+Requires:      perl(File::Path)
+Requires:      perl(File::Copy)
+Requires:      perl(File::Basename)
+Requires:      perl(Pod::Usage)
 BuildArch:	    noarch
 
 %define gitbin %(git --exec-path)
