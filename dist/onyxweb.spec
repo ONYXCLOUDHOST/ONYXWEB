@@ -55,5 +55,5 @@ find $RPM_BUILD_ROOT -depth -type d -exec rmdir {} 2>/dev/null \;
 %{gitbin}/*
 
 %changelog
-* Sat June 10 2020 Rick Weston
-- initial spec file setup
+* Sun Jun 10 2022 Rick Weston
+- Initial configuration of spec file.
