@@ -1,6 +1,6 @@
 Name:          onyxweb
 Summary:    	  Install nDeploy on centos7 server
-Version:    	  4.0.1.1
+Version:    	  4.0.1.2
 Release:    	  1%{?dist}
 Group:         Development/Libraries
 License:       GPLv3
@@ -55,4 +55,5 @@ find $RPM_BUILD_ROOT -depth -type d -exec rmdir {} 2>/dev/null \;
 %{gitbin}/*
 
 %changelog
+* Sat June 10 2020 Rick Weston
 - initial spec file setup
