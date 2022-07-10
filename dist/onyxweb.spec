@@ -1,6 +1,6 @@
 Name:          onyxweb
 Summary:    	  Install nDeploy on centos7 server
-Version:    	  4.0.4
+Version:    	  4.0.1
 Release:    	  1%{?dist}
 Group:         Development/Libraries
 License:       GPLv3
