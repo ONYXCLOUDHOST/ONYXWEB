@@ -1,9 +1,9 @@
 Name:          onyxweb
 Summary:    	  Install nDeploy on centos7 server
-Version:    	  1.0
+Version:    	  1.0.0.1
 Release:    	  1%{?dist}
 Group:         Development/Libraries
-License:       GPL3
+License:       GPLv3
 Source0:    	  %{name}-%{version}.tar.gz
 BuildRoot:	    %{_tmppath}/%{name}-%{version}-%{release}-root
 BuildRequires: git
