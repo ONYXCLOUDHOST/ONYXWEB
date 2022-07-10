@@ -1,5 +1,5 @@
 
-# AUTOM8N
+# ONYXWEB fork of AUTOM8N
 
 High Available, DNS Load Balanced webstack on cPanel(TM) Control panel
 
@@ -31,4 +31,4 @@ https://www.stirstudiosdesign.com/
 
 https://github.com/xlightwaverx
 
-A U T O M 8 N
+ONYXWEB fork of A U T O M 8 N
