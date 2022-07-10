@@ -20,7 +20,7 @@ name: Create RPM Release
 jobs:
     build:
         name: Create RPM Release
-        runs-on: centos
+        runs-on: ubuntu-latest
 
         steps:
 
