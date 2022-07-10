@@ -55,5 +55,5 @@ find $RPM_BUILD_ROOT -depth -type d -exec rmdir {} 2>/dev/null \;
 %{gitbin}/*
 
 %changelog
-* Sat 7 2022
+* Sun Jun 10 2022 Rick
 - initial spec file setup
